@@ -25,4 +25,4 @@ Install - Version 2.7.15 from https://www.python.org/
 
 ## Contributing
 Please see CONTRIBUTING.md.
-All files were originally written by udacity.com and modified by Joel Magee
+All files were originally written by `udacity.com` and modified by Joel Magee
