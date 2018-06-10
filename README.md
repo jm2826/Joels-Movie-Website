@@ -8,8 +8,7 @@ It will:
 
 ## Download and Save
 
-Create a folder on our PC and save these all of these files to it from my github repository:
-https://github.com/jm2826/Joels-Movie-Website
+Create a folder on our PC and save these all of these files to it from my github [repository](https://github.com/jm2826/Joels-Movie-Website)
 
 ## Install
 
