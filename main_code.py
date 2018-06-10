@@ -8,14 +8,14 @@ import fresh_tomatoes
 
 
 #6 instances that calls __init__ method in the module media.py
-toy_story = media.Movie("Toy Story",
-                        "A story of a boy and his toys that come to life.",
-                        "http://cdn.collider.com/wp-content/uploads/toy-story-poster1.jpg",
-                        "https://youtube.com/tv#/watch?v=KYz2wyBy3kc")
-
-avatar = media.Movie("Avatar","Blue people",
-                     "http://www.madtomatoe.com/wp-content/uploads/2009/08/avatar_poster.jpg",
-                     "https://youtube.com/tv#/watch?v=5PSNL1qE6VY")
+star_wars = media.Movie("Star Wars",
+                        "A story of a boy a girl and the universe",
+                        "https://tse2.mm.bing.net/th?id=OIP.W3-_kiSuMQ35EpfQmpCQoAHaKX&pid=15.1&P=0&w=300&h=300",
+                        "https://youtube.com/tv#/watch?v=XHk5kCIiGoM")
+the_sound_of_music = media.Movie("The Sound of Music",
+                                 "A Nun, Maria, becomes a Governess and much more for the Von Trapps.",
+                                 "https://tse1.mm.bing.net/th?id=OIP.OGX0qNsyvHh3O7j4JBvJYgHaLD&pid=15.1&P=0&w=300&h=300",
+                                 "https://youtube.com/tv#/watch?v=UY6uw3WpPzY")
 
 transformers = media.Movie("The Transformers: The Movie(1986)",
                            "Autobots battle the Decepticons and Unicron",
@@ -38,7 +38,7 @@ black_panther = media.Movie("The Black Panther",
                             "https://youtube.com/tv#/watch?v=xjDjIWPwcPU")
 
 #Array placed in a variable
-movies = [toy_story, avatar, transformers, avengers, wonder_woman, black_panther]
+movies = [star_wars, the_sound_of_music, transformers, avengers, wonder_woman, black_panther]
 
 #Calls the method inside the module fresh_tomatoes and places an argument into it
 fresh_tomatoes.open_movies_page(movies)

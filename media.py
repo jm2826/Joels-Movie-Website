@@ -4,9 +4,6 @@ import webbrowser
 class Movie():
     """Is this module and its methods consider very short or obvious to have a
     docstring?"""
-    
-    #Class variable each instance can use 
-    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
         
     #Create space in memory for these attributes for each instance created
     def __init__(self, movie_title, movie_storyline, poster_image,
