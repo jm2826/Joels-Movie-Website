@@ -16,7 +16,7 @@ https://github.com/jm2826/Joels-Movie-Website
 Install - Version 2.7.15 from https://www.python.org/
 
 ## Quickstart
-*On your PC, search for python(IDLE) and open
+*On your PC, search for python(IDLE) and open.
 *In IDLE, open the file `main_code.py` from the folder you saved the files from the before mentioned github repository.
 *Run the `main_code.py` file in IDLE, click on a movie image, and enjoy!
 
