@@ -1,11 +1,13 @@
 import webbrowser
+"""This module was created to make my class Movie for every instance
+   used in the file main_code.py. It also utilizes the module webbrowser
+    to open the movie trailer URL's I found for each instance"""
 
 
 class Movie():
-    """Is this module and its methods consider very short or obvious to have a
-    docstring?"""
-        
-    #Create space in memory for these attributes for each instance created
+    """This class allows me to call two methods, __init__ and show_trailer
+        in the module main_code.py"""
+
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
         self.title = movie_title
@@ -13,7 +15,7 @@ class Movie():
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
-    #Open web browser and play movie trailer
+    # Open Web Browser and play movie trailer
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
-    
+
