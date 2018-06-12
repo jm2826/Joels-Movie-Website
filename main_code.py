@@ -9,11 +9,13 @@ import fresh_tomatoes
 star_wars = media.Movie(
     "Star Wars",
     "A story of a boy a girl and the universe",
+    # NOQA - URL breaks PEP8 Standards but cant break line to fix
     "https://tse2.mm.bing.net/th?id=OIP.W3-_kiSuMQ35EpfQmpCQoAHaKX&pid=15.1&P=0&w=300&h=300",
     "https://youtube.com/tv#/watch?v=XHk5kCIiGoM")
 
 the_sound_of_music = media.Movie(
     "The Sound of Music",
+    # NOQA - URL breaks PEP8 Standards but cant break line to fix
     "A Nun, Maria, becomes a Governess and much more for the Von Trapps.",
     "https://tse1.mm.bing.net/th?id=OIP.OGX0qNsyvHh3O7j4JBvJYgHaLD&pid=15.1&P=0&w=300&h=300",
     "https://youtube.com/tv#/watch?v=UY6uw3WpPzY")
@@ -27,6 +29,7 @@ transformers = media.Movie(
 avengers = media.Movie(
     "The Avengers",
     "The Avengers battle Loki.",
+    # NOQA - URL breaks PEP8 Standards but cant break line to fix
     "http://1.bp.blogspot.com/-p9FPICvPfqo/VdbMbDqbhDI/AAAAAAAAzrU/2BnrpuqkilQ/s1600/AvengersPoster4.jpg",
     "https://youtube.com/tv#/watch?v=eOrNdBpGMv8")
 
@@ -39,6 +42,7 @@ wonder_woman = media.Movie(
 black_panther = media.Movie(
     "The Black Panther",
     "Wakanda stryggles to use their resources to help the world.",
+    # NOQA - URL breaks PEP8 Standards but cant break line to fix
     "https://www.monkeysfightingrobots.com/wp-content/uploads/2017/10/Black-Panther-Poster.jpg",
     "https://youtube.com/tv#/watch?v=xjDjIWPwcPU")
 
